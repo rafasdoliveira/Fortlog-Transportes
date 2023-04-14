@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Header from "../src/components/header/header.js";
 import Footer from "../src/components/footer/footer.js";
-import CardIndex from "../src/components/cards_index/cards_index.js";
 import styles from "../public/assets/styles/index.module.css";
 
 export default function Home() {
