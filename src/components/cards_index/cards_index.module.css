@@ -1,0 +1,49 @@
+/* Fazemos o tratamento do CSS onde temos os Cards  que falam sobre o diferencial da empresa*/
+.cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.images {
+  width: 50px;
+  margin-top: 1.5rem;
+}
+
+.text {
+  font-family: montserrat;
+  text-align: center;
+  font-size: 14px;
+  text-align: center;
+}
+
+.card {
+  width: 250px;
+  height: 200px;
+  margin-left: 3%;
+  margin-right: 3%;
+  background-color: #fca311;
+  border-radius: 20px;
+  transition: all 0.3s;
+  color: #fdfdfd;
+  font-family: montserrat-bold;
+}
+
+.card2 {
+  width: 190px;
+  height: 254px;
+  background-color: #000000;
+  /*  border-radius: ; */
+  transition: all 0.2s;
+}
+
+.card2:hover {
+  transform: scale(1);
+  border-radius: 20px;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,79 @@
+/** Iniciamos a estilização da  footer **/
+.all {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  display: flex;
+  bottom: 0;
+  width: 100%;
+  height: 200px;
+  background-color: #000000;
+}
+
+.logo {
+  margin-top: 1%;
+  margin-left: 1%;
+  margin-bottom: 5%;
+}
+
+.empresa {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8%;
+}
+
+.grupo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2%;
+}
+
+.redes {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3%;
+}
+
+.socialimgs {
+  display: flex;
+  flex-direction: row;
+}
+
+.icons {
+  display: flex;
+  margin-right: 1rem;
+}
+
+.title {
+  font-family: montserrat-bold;
+  color: #7a7b74;
+  font-size: 16px;
+}
+
+.subtitle {
+  display: flex;
+  flex-direction: column;
+}
+
+.a {
+  color: #fdfdfd;
+  text-decoration: none;
+}
+
+.a:hover {
+  color: #fca311;
+}
+
+.developer {
+  display: flex;
+  align-items: center;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #7a7b74;
+  font-size: 15px;
+  color: #fdfdfd;
+  justify-content: center;
+}

@@ -1,0 +1,163 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Essas são as fontes que utilizaremos nesse projeto **/
+@font-face {
+  font-family: montserrat;
+  src: url(./../fonts/Montserrat/Montserrat-Regular.ttf);
+}
+/* @font-face Permite que você utilize fontes que não estão instaladas no computador do usuário
+bastando para isso manter o arquivo da fonte disponível no servidor,**/
+@font-face {
+  font-family: montserrat-bold;
+  src: url(./../fonts/Montserrat/Montserrat-Bold.ttf);
+}
+
+button {
+  padding: 0.5em 2em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: #fca311;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+button:active {
+  transform: translateY(-1px);
+}
+
+/** Finalizamos a estilização da  header **/
+/** Iniciamos a estilização da  body **/
+body {
+  margin: 0px 0px 0px 0px;
+  font-family: montserrat;
+}
+
+.chamada {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 170px;
+  background-color: #7a7b74;
+  color: #fdfdfd;
+}
+
+.chamada-title {
+  text-align: center;
+  margin-left: 1%;
+  padding-top: 1rem;
+  font-family: montserrat-bold;
+  font-size: 18px;
+}
+
+button {
+  padding: 0.8em 3em;
+  font-family: montserrat-bold;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: #fca311;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fdfdfd;
+  transform: translateY(-7px);
+}
+
+button:active {
+  transform: translateY(-1px);
+}
+
+.contato {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: montserrat;
+  margin-left: 3%;
+}
+
+.contato-title {
+  font-family: montserrat-bold;
+  font-size: 30px;
+}
+
+.infos {
+  display: flex;
+  flex-direction: row;
+  margin-left: 3%;
+}
+
+.forms-contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardinfos-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formscontact-title {
+  font-size: 23px;
+  font-family: "montserrat-bold";
+}
+
+.input-forms {
+  margin-top: 4%;
+}
+
+.infos button {
+  border: 0;
+  background: #111;
+  color: #fff;
+  padding: 0.68em;
+  border-radius: 14px;
+  font-weight: bold;
+  margin-top: 5%;
+}
+
+.sign-up:hover {
+  opacity: 0.8;
+}
+
+select {
+  font-family: montserrat;
+}
+
+.local {
+  display: flex;
+  margin-bottom: 3%;
+}
+
+/** Finalizamos a estilização da  body **/
