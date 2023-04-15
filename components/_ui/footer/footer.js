@@ -9,7 +9,7 @@ export default function Footer() {
             <img
               width="110%"
               height="130%"
-              src="/assets/images/logos/logo_fortlog_vertical.png"
+              src="images/logos/logo_fortlog_horizontal.png"
               alt="Logo Vertical"
             />
           </a>

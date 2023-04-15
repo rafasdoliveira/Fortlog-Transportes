@@ -9,13 +9,13 @@ body {
 /* Essas são as fontes que utilizaremos nesse projeto **/
 @font-face {
   font-family: montserrat;
-  src: url(./../fonts/Montserrat/Montserrat-Regular.ttf);
+  src: url(./../public/fonts/Montserrat/Montserrat-Regular.ttf);
 }
 /* @font-face Permite que você utilize fontes que não estão instaladas no computador do usuário
 bastando para isso manter o arquivo da fonte disponível no servidor,**/
 @font-face {
   font-family: montserrat-bold;
-  src: url(./../fonts/Montserrat/Montserrat-Bold.ttf);
+  src: url(./../public/fonts/Montserrat//Montserrat-Bold.ttf);
 }
 
 button {

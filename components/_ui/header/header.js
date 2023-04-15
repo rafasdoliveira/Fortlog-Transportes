@@ -9,7 +9,7 @@ export default function Header() {
           <img
             width="250px"
             height="100%"
-            src="/assets/images/logos/logo_fortlog_horizontal.png"
+            src="/images/logos/logo_fortlog_horizontal.png"
             alt="Logo Horizontal"
           />
         </Link>

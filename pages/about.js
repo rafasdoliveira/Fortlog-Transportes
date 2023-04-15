@@ -1,9 +1,9 @@
 import Head from "next/head";
-import Header from "../src/components/header/header.js";
-import Footer from "../src/components/footer/footer.js";
-// import CardIndex from "./../../src/components/cards_index/cards_index.js";
-import styles from "../public/assets/styles/index.module.css";
-import CardAbout from "../src/components/card_about/card.about..js";
+import Header from "./../components/_ui/header/header";
+import Footer from "./../components/_ui/footer/footer";
+import CardAbout from "./../components/About/Cards/card_about";
+import styles from "./../styles/about.module.css";
+import CardHistory from "../components/About/CardHistory/card_history";
 
 export default function Home() {
   return (
@@ -18,23 +18,31 @@ export default function Home() {
         {/*Aqui chamamos o componente header, que será utilizado em todas as páginas da aplicação*/}
         <Header />
         <div className={styles.historia}>
-          <p className={styles.title}>História da Empresa</p>
-          <p>
-            A Fortlog foi criada em 2019 para atender serviços logísticos em
-            todo estado do Ceará e Piauí, atendendo a mais de 1.000 clientes no
-            total
-          </p>
+          <p className={styles.title}>Nossa História</p>
+          <CardHistory/>
         </div>
-        <div className={styles.card}>
-          <p className={styles.title}>Missão | Visão | Valores</p>
-          <p>
-            A Fortlog foi criada em 2019 para atender serviços logísticos em
-            todo estado do Ceará e Piauí, atendendo a mais de 1.000 clientes no
-            total
-          </p>
-          <CardAbout />
-          <CardAbout />
-          <CardAbout />
+
+        <div className={styles.missao}>
+          <div className={styles.title}>
+            <p>Focados em entregar o melhor!</p>
+          </div>
+          <div className={styles.cards}>
+            <CardAbout
+              title="Missão"
+              subtitle="Conheça nossa Missão!"
+              text="Nossa missão é.."
+            />
+            <CardAbout
+              title="Visão"
+              subtitle="Conheça nossa Visão!"
+              text="Nossa visão é.."
+            />
+            <CardAbout
+              title="Valores"
+              subtitle="Conheça nossos Valores!"
+              text="Seguimos 3 valores principais"
+            />
+          </div>
         </div>
         <div className={styles.historia}>
           <p className={styles.title}>Equipe</p>
@@ -49,9 +57,7 @@ export default function Home() {
         </div>
         <div className={styles.historia}>
           <p className={styles.title}>Localização</p>
-          <p>
-            Travessa José Bastos 79
-          </p>
+          <p>Travessa José Bastos 79</p>
         </div>
         {/*Aqui chamamos o componente footer, que será utilizado em todas as páginas da aplicação*/}
         <Footer />
