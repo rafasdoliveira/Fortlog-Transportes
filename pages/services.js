@@ -1,6 +1,7 @@
-import Head from "next/head";
-import Header from "./../components/_ui/header/header";
-import Footer from "./../components/_ui/footer/footer";
+import Head from 'next/head';
+import Header from './../components/_ui/header/header';
+import Footer from './../components/_ui/footer/footer';
+import styles from './../styles/index.module.css';
 
 export default function Home() {
   return (

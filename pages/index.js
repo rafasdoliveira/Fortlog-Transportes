@@ -78,6 +78,7 @@ export default function Home() {
             text="Motoristas 100% qualificados"
           />
         </div>
+        
         {/*Aqui chamamos o componente footer, que será utilizado em todas as páginas da aplicação*/}
         <Footer />
       </main>

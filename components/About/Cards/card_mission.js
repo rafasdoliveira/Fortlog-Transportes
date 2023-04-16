@@ -1,6 +1,6 @@
 import styles from './cardabout.module.css'
 
-export default function CardAbout({title, subtitle}) {
+export default function CardAbout({title, subtitle, text}) {
   return (
     <div className={styles.flipcard}>
       <div className={styles.flipcardinner}>
@@ -10,7 +10,7 @@ export default function CardAbout({title, subtitle}) {
         </div>
         <div className={styles.flipcardback}>
           <p className={styles.title}>{title}</p>
-          <p>text</p>
+          <p>{text}</p>
         </div>
       </div>
     </div>
