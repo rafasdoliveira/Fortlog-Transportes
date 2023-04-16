@@ -30,22 +30,6 @@
   margin-left: 2%;
 }
 
-.redes {
-  display: flex;
-  flex-direction: column;
-  margin-left: 3%;
-}
-
-.socialimgs {
-  display: flex;
-  flex-direction: row;
-}
-
-.icons {
-  display: flex;
-  margin-right: 1rem;
-}
-
 .title {
   font-family: montserrat-bold;
   color: #7a7b74;
