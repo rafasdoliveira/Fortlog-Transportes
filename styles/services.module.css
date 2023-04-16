@@ -1,0 +1,10 @@
+.services {
+  display: flex;
+  flex-direction: row;
+}
+
+.title {
+  text-align: center;
+  font-family: montserrat-bold;
+  font-size: 20px;
+}

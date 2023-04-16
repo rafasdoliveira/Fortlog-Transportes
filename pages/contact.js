@@ -2,7 +2,7 @@ import Head from "next/head";
 import Header from "./../components/_ui/header/header";
 import Footer from "./../components/_ui/footer/footer";
 import Form from "./../components/Contact/forms";
-import Social from "./../components/_ui/social/social"
+import Social from "./../components/_ui/social/social";
 import styles from "./../styles/contact.module.css";
 
 export default function Home() {
@@ -27,12 +27,14 @@ export default function Home() {
           </div>
           <div className={styles.card}>
             <div className={styles.title}>Mande uma mensagem!</div>
-            <div className={styles.name}>
+            <div className={styles.input}>
               <Form label="Nome" type="text" />
               <Form label="Sobrenome" type="text" />
             </div>
-            <Form label="E-mail" type="e-mail" />
-            <Form label="Assunto" type="text" />
+            <div className={styles.input}>
+              <Form label="E-mail" type="e-mail" />
+              <Form label="Assunto" type="text" />
+            </div>
             <Form label="Mensagem" type="text" />
           </div>
         </div>

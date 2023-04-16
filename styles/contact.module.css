@@ -5,26 +5,22 @@
   width: 1249px;
   height: 500px;
   padding: 3em;
-  background-color: #FCA311;
-  border: 2px solid red;
+  background-color: #F4c100;
 }
 
 .message {
   display: flex;
   flex-direction: column;
-  border: 2px solid red;
   width: 610px;
   height: 490px;
 }
 
 .heading {
   display: flex;
-  border: 2px solid red;
 }
 
 .social {
   display: flex;
-  border: 2px solid red;
 }
 
 .card {
@@ -35,11 +31,10 @@
   width: 610px;
   height: 490px;
   border-radius: 10px;
-  background-color: #adb5bd;
-  border: 2px solid red;
+  background-color: #fdfdfd;
 }
 
-.name {
+.input {
   display: flex;
   flex-direction: row;
   gap: 50px;

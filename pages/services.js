@@ -1,7 +1,7 @@
-import Head from 'next/head';
-import Header from './../components/_ui/header/header';
-import Footer from './../components/_ui/footer/footer';
-import styles from './../styles/index.module.css';
+import Head from "next/head";
+import Header from "./../components/_ui/header/header";
+import Footer from "./../components/_ui/footer/footer";
+import styles from "./../styles/services.module.css";
 
 export default function Home() {
   return (
@@ -23,27 +23,30 @@ export default function Home() {
             distribuição é feita.
           </p>
         </div>
-        <div className={styles.historia}>
-          <p className={styles.title}>Logística</p>
-          <p>
-            explique como a empresa gerencia a logística para garantir que os
-            produtos sejam entregues de maneira rápida e eficiente.
-          </p>
-        </div>
-        <div className={styles.historia}>
-          <p className={styles.title}>Armazenagem</p>
-          <p>
-            descreva as instalações de armazenagem da empresa e como os produtos
-            são armazenados e gerenciados.
-          </p>
-        </div>
-        <div className={styles.historia}>
-          <p className={styles.title}>Atendimento ao cliente</p>
-          <p>
-            explique como a empresa oferece suporte e assistência aos clientes,
-            desde a realização de pedidos até a resolução de problemas e
-            dúvidas.
-          </p>
+
+        <div className={styles.services}>
+          <div className={styles.historia}>
+            <p className={styles.title}>Logística</p>
+            <p>
+              explique como a empresa gerencia a logística para garantir que os
+              produtos sejam entregues de maneira rápida e eficiente.
+            </p>
+          </div>
+          <div className={styles.historia}>
+            <p className={styles.title}>Armazenagem</p>
+            <p>
+              descreva as instalações de armazenagem da empresa e como os
+              produtos são armazenados e gerenciados.
+            </p>
+          </div>
+          <div className={styles.historia}>
+            <p className={styles.title}>Atendimento ao cliente</p>
+            <p>
+              explique como a empresa oferece suporte e assistência aos
+              clientes, desde a realização de pedidos até a resolução de
+              problemas e dúvidas.
+            </p>
+          </div>
         </div>
 
         {/*Aqui chamamos o componente footer, que será utilizado em todas as páginas da aplicação*/}
